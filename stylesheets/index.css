@@ -11,26 +11,43 @@ body{
 }
 
 #logo{
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
     width: 250px;
     height: 125px;
+    display: inline;
 }
 
 #title{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 400px;
+    margin-top: -5em;
+    margin-left: 18em;
+    display: inline;
 }
 
-#bubble{
+#bubble1{
     width: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
+#bubble2{
+    width: 75px;
+    margin-left: 60em;
+}
+
+#bubble3{
+    width: 125px;
+    margin-left: 75em;
+}
+
+#bubble4{
+    width: 75px;
+    margin-top: -10em;
+    margin-left: 5em;
+}
+
 #whale{
-    width: 200px;
+    width: 250px;
     margin-right: -10em;
     margin-left: auto;
 }
@@ -51,3 +68,22 @@ body{
 .bottom-level{
     height: 15em;
 }
+
+#change{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lobster, #sebastian{
+    width: 150px;
+}
+
+#lobster:hover{
+    display: none;
+    background-image: url(../images/sebastian.png);
+}
+
+
+
+
