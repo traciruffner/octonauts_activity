@@ -5,7 +5,7 @@ $(document).ready(function(){
   $('#title').fadeIn(3000);    
     
   $(function() {    
-    $('#pod').draggable().touch();
+    $('#pod').draggable();
   });   
     
       
