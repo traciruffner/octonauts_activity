@@ -4,9 +4,9 @@ $(document).ready(function(){
     
   $('#title').fadeIn(3000);    
     
-  $(function() {    
-    $('#pod').draggable();
-  });   
+    
+  $('#pod').draggable();
+    
     
       
   $('#whale').click(function(){
