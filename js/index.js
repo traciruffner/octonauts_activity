@@ -2,29 +2,55 @@
 
 $(document).ready(function(){
     
+  $('#title').fadeIn(3000);    
+    
   $(function() {    
-    $('#pod').draggable();
+    $('#pod').draggable().touch();
   });   
     
-  $('#bubble1').click(function(){
-      $('#bubble1').effect('explode');
-  });  
-    
-  $('#bubble2').click(function(){
-      $('#bubble2').effect('explode');
-  }); 
-    
-  $('#bubble3').click(function(){
-      $('#bubble3').effect('explode');
-  });   
-    
-  $('#bubble4').click(function(){
-      $('#bubble4').effect('explode');
-  });        
-    
+      
   $('#whale').click(function(){
-      $('#whale').effect('bounce', {times:10}, 2000);      
+      $('#whale').effect('bounce', {times:10}, 800);      
   }); 
+    
+  $('#sebastian').hide();
+    
+   $('#lobster').click(function(){
+        $('#lobster').hide();
+        $('#sebastian').show();
+      }); 
+    
+   $('#sebastian').click(function(){
+       $('#sebastian').hide();
+       $('#lobster').show();
+   });
+    
+   
+   
+   $('#jellyfish').click(function()
+  {       
+      $('#jelly').animate({
+        left: '0',
+      }, 500, function() {
+    });
+      $('#jelly').animate({
+        left: '300',
+      }, 500, function() {
+    });   
+       
+  });
+    
+    $('#blow').click(function(){
+       $('#blowfish').rotate(180);
+   });   
+    
+   
+   
+     
+   
+    
+   
+
     
   
 });  
