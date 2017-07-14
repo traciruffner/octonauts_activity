@@ -6,8 +6,8 @@ $(document).ready(function(){
     
     
   $('#pod').draggable();
-    
-    
+  $('#sandy').draggable();  
+  $('#shellington').draggable();  
       
   $('#whale').click(function(){
       $('#whale').effect('bounce', {times:10}, 800);      
@@ -27,13 +27,13 @@ $(document).ready(function(){
     
    
    
-   $('#jellyfish').click(function()
+   $('#seahorse').click(function()
   {       
-      $('#jelly').animate({
+      $('#horse').animate({
         left: '0',
       }, 500, function() {
     });
-      $('#jelly').animate({
+      $('#horse').animate({
         left: '300',
       }, 500, function() {
     });   
@@ -42,7 +42,19 @@ $(document).ready(function(){
     
     $('#blow').click(function(){
        $('#blowfish').rotate(180);
-   });   
+   });  
+    
+    $('#snap').hide();
+    
+   $('#croc').click(function(){
+        $('#croc').hide();
+        $('#snap').show();
+      }); 
+    
+   $('#snap').click(function(){
+       $('#snap').hide();
+       $('#croc').show();
+   });
     
    
    
