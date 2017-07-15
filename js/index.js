@@ -2,12 +2,23 @@
 
 $(document).ready(function(){
     
-  $('#title').fadeIn(3000);    
-    
-    
-  $('#pod').draggable();
+  $('#title').draggable();    
+  $('#logo').draggable();  
+  $('#octopod').draggable();
   $('#sandy').draggable();  
-  $('#shellington').draggable();  
+  $('#shellington').draggable();
+  $('#ray').draggable();
+  $('#jelly').draggable(); 
+  $('#octopus').draggable(); 
+  $('#whale').draggable();
+  $('#horse').draggable();
+  $('#blowfish').draggable(); 
+  $('#shark').draggable();
+  $('#fish1').draggable();
+  $('#fish2').draggable();
+  $('#dolphin').draggable();
+  $('#ship').draggable();  
+  $('#castle').draggable();      
       
   $('#whale').click(function(){
       $('#whale').effect('bounce', {times:10}, 800);      
@@ -26,24 +37,6 @@ $(document).ready(function(){
    });
     
    
-   
-   $('#seahorse').click(function()
-  {       
-      $('#horse').animate({
-        left: '0',
-      }, 500, function() {
-    });
-      $('#horse').animate({
-        left: '300',
-      }, 500, function() {
-    });   
-       
-  });
-    
-    $('#blow').click(function(){
-       $('#blowfish').rotate(180);
-   });  
-    
     $('#snap').hide();
     
    $('#croc').click(function(){
